@@ -25,31 +25,42 @@
         <script src="main.js" defer></script>
     </head>
     <body>
-        <section id="home">
-            <div class="header">
+        <!-- Navbar -->
+        <section id="navbar">
+            <div class="navbar__logo">
                 <div class="icon">
                     <img src="img/favicon.png" alt="favicon" />
-                    <p>Joseph</p>
+                    <a href="#">Joseph</a>
                 </div>
-                <ul class="navbar">
-                    <li class="home">Home</li>
-                    <li class="about">About</li>
-                    <li class="skills">Skills</li>
-                    <li class="work">My Work</li>
-                    <li class="testimonial">Testimonial</li>
-                    <li class="contact">Contact</li>
+                <ul class="navbar__menu">
+                    <li class="navbar__menu__item">Home</li>
+                    <li class="navbar__menu__item">About</li>
+                    <li class="navbar__menu__item">Skills</li>
+                    <li class="navbar__menu__item">My Work</li>
+                    <li class="navbar__menu__item">Testimonial</li>
+                    <li class="navbar__menu__item">Contact</li>
                 </ul>
-            </div>
-            <div class="avata"></div>
-            <div class="title"></div>
-            <div class="description"></div>
-            <div class="detail"></div>
-            <div class="contact"></div>
         </section>
+        <!-- Home -->
+        <section id="home">
+            <img class="home__avatar" src="img/profile.jpg" alt="profile photod" /></div>
+                <h1 class="home__title">Hello,<br/>I'm Dream Coder</h1>
+                <h2 class="home__description">
+                    A Front-end Engineer currently residing in Sydney,
+                    Australia.
+                </h2>
+            </div>
+            <button class="home__contact">CONTACT ME</button>
+        </section>
+        <!-- About -->
         <section id="about"></section>
+        <!-- Skills -->
         <section id="skills"></section>
+        <!-- Work -->
         <section id="work"></section>
+        <!-- Testimonial -->
         <section id="testimonial"></section>
+        <!-- Contact -->
         <section id="contact"></section>
     </body>
 </html>
